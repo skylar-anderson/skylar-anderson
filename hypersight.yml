@@ -1,0 +1,6 @@
+technicalKnowledge: 5
+groupGranularity: 3
+instructions: Highlight key changes in the diff.  Tests, documentation,
+  dependencies, and other changes should have a low priority.
+language: English
+writingStyle: Normal
