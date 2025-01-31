@@ -5,33 +5,32 @@ instructions: Highlight key changes in the diff.  Tests, documentation,
 language: English
 writingStyle: Normal
 classifications:
-  - name: Bug Fix🐛
+  - name: Bug fix
     description: A change that addresses incorrect or unexpected behavior in the
       existing code.
-  - name: Feature / Enhancement👷‍♂️
+  - name: Feature
     description: Introduction of a new feature or a notable enhancement to existing
       functionality.
-  - name: Refactor / Code Cleanup
+  - name: Refactor
     description: Reorganization of code for improved clarity, maintainability, or
       structure without changing external behavior.
-  - name: Performance Improvement
+  - name: Performance
     description: Changes that optimize the speed, efficiency, or scalability of the
       application.
-  - name: Security Fix
+  - name: Security
     description: A change that addresses a security vulnerability or hardens the
       system's security posture.
-  - name: Testing Improvement
+  - name: Testing
     description: Additions or revisions to tests (unit, integration, end-to-end)
       aimed at improving coverage or reliability.
-  - name: Build / CI Update
+  - name: Build/CI
     description: Modifications to library/package dependencies, build scripts, or
       continuous integration configuration.
-  - name: Chore / Maintenance Task
+  - name: Chore
     description: General housekeeping that doesn't fall under the above categories
       (e.g., version bumps, minor configurations, or grooming tasks).
-  - name: UI / UX Update
+  - name: UX
     description: Changes specifically aimed at user interface or user experience
       improvements.
   - name: Other
     description: Changes that don't fit into any other category.
-username: skylar-anderson
