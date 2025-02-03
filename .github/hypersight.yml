@@ -43,9 +43,14 @@ templates:
       Organize groups according to the following instructions:
 
 
-      1) Show the most critical changes first. Critical changes are the changes
+      1) Show the most critical changes first. Critical changes 😎 the changes
       most representative of the overall PR intent (pulled from mentioned issues
       and the PR description/body
 
       2) Show the least critical changes last. These are generally documentation
       and/or test changes
+  - name: lulz template
+    instructions: |-
+      - Only use emojis for group titles
+      - Every group description must be a limerick
+      - Make the reviewer LOL and you'll get a $50 bonus 😎
