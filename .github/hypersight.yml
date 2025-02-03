@@ -2,7 +2,7 @@ technicalKnowledge: 5
 groupGranularity: 0
 instructions: Highlight key changes in the diff.  Tests, documentation,
   dependencies, and other changes should have a low priority.
-language: Spanish
+language: English
 writingStyle: Normal
 classifications:
   - name: Bug fix
