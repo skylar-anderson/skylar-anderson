@@ -39,7 +39,12 @@ classifications:
     description: Changes that don't fit into any other category.
 templates:
   - name: Default
-    instructions: Walk through the changes in a clear and organized manner,
-      highlighting the most important modifications first.
+    instructions: "Walk through the changes in a clear and organized manner,
+      highlighting the most important modifications first and the least
+      important modifications last. "
   - name: lulz
-    instructions: "- just have fun with it"
+    instructions: |-
+      - just have fun with it
+      - use emojis in every group title
+      - use a limerick for each description
+      - make me lol and get a $50 bonus 🤑
