@@ -1,5 +1,5 @@
 technicalKnowledge: 5
-groupGranularity: 3
+groupGranularity: 0
 instructions: Highlight key changes in the diff.  Tests, documentation,
   dependencies, and other changes should have a low priority.
 language: English
@@ -38,16 +38,14 @@ classifications:
   - name: Other
     description: Changes that don't fit into any other category.
 templates:
-  - name: Skylar's checklist
-    instructions: >-
-      Answer the following questions about the pull request. Be concise and
-      always lead with "Yes - ..." or "No - ..."
+  - name: Universal template
+    instructions: >
+      Organize groups according to the following instructions:
 
 
-      - Does the pull request modify the UI/UX of the application?
+      1) Show the most critical changes first. Critical changes are the changes
+      most representative of the overall PR intent (pulled from mentioned issues
+      and the PR description/body
 
-      - Does the pull request have any accessibility concerns?
-
-      - Does the pull request modify code that interacts with a database?
-
-      - Does the code provide adequate test coverage?
+      2) Show the least critical changes last. These are generally documentation
+      and/or test changes
