@@ -20,6 +20,9 @@ classifications:
   - name: Security
     description: A change that addresses a security vulnerability or hardens the
       system's security posture.
+  - name: Documentation
+    description: Any PR that updates or adds documentation (README, user manuals,
+      code comments, etc.).
   - name: Testing
     description: Additions or revisions to tests (unit, integration, end-to-end)
       aimed at improving coverage or reliability.
@@ -34,3 +37,17 @@ classifications:
       improvements.
   - name: Other
     description: Changes that don't fit into any other category.
+templates:
+  - name: Skylar's checklist
+    instructions: >-
+      Answer the following questions about the pull request. Be concise and
+      always lead with "Yes - ..." or "No - ..."
+
+
+      - Does the pull request modify the UI/UX of the application?
+
+      - Does the pull request have any accessibility concerns?
+
+      - Does the pull request modify code that interacts with a database?
+
+      - Does the code provide adequate test coverage?
