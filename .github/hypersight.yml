@@ -1,5 +1,4 @@
 technicalKnowledge: 5
-groupGranularity: 0
 instructions: Highlight key changes in the diff.  Tests, documentation,
   dependencies, and other changes should have a low priority.
 language: English
@@ -42,7 +41,7 @@ templates:
     instructions: "Walk through the changes in a clear and organized manner,
       highlighting the most important modifications first and the least
       important modifications last. "
-  - name: Limericks and emojis
+  - name: Limericks and emojis :)
     instructions: |-
       - just have fun with it
       - use emojis in every group title
