@@ -7,35 +7,40 @@ classifications:
   - name: Bug fix
     description: A change that addresses incorrect or unexpected behavior in the
       existing code.
-  - name: Feature
-    description: Introduction of a new feature or a notable enhancement to existing
-      functionality.
-  - name: Refactor
-    description: Reorganization of code for improved clarity, maintainability, or
-      structure without changing external behavior.
-  - name: Performance
-    description: Changes that optimize the speed, efficiency, or scalability of the
-      application.
+  - name: New feature
+    description: "A PR that delivers new or exciting customer value. "
   - name: Security
     description: A change that addresses a security vulnerability or hardens the
       system's security posture.
-  - name: Documentation
-    description: Any PR that updates or adds documentation (README, user manuals,
-      code comments, etc.).
-  - name: Testing
-    description: Additions or revisions to tests (unit, integration, end-to-end)
-      aimed at improving coverage or reliability.
-  - name: Build/CI
-    description: Modifications to library/package dependencies, build scripts, or
-      continuous integration configuration.
-  - name: Chore
-    description: General housekeeping that doesn't fall under the above categories
-      (e.g., version bumps, minor configurations, or grooming tasks).
-  - name: UX
-    description: Changes specifically aimed at user interface or user experience
-      improvements.
+  - name: Low priority
+    description: >-
+      Mark as low priority if the pull request meets any of the following
+      catagories:
+
+
+      - **Documentation:** Any PR that updates or adds documentation (README,
+      user manuals, code comments, etc.).
+
+      - **Testing:** Additions or revisions to tests (unit, integration,
+      end-to-end) aimed at improving coverage or reliability.
+
+      - **Build/CI:** Modifications to library/package dependencies, build
+      scripts, or continuous integration configuration.
+
+      - **Chore: ** General housekeeping that doesn't fall under the above
+      categories (e.g., version bumps, minor configurations, or grooming tasks).
+
+      - **Performance:** Changes that optimize the speed, efficiency, or
+      scalability of the application.
+
+      - **Refactor:** Reorganization of code for improved clarity,
+      maintainability, or structure without changing external behavior.
+  - name: UX and design improvements
+    description: Changes specifically aimed at user interface or design improvements
   - name: Other
     description: Changes that don't fit into any other category.
+  - name: Accessibility
+    description: Changes specifically aimed at improving accessibility
 templates:
   - name: Default
     instructions: |
