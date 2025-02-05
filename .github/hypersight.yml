@@ -38,6 +38,7 @@ classifications:
     description: Changes that don't fit into any other category.
 templates:
   - name: Default
-    instructions: "Walk through the changes in a clear and organized manner,
-      highlighting the most important modifications first and the least
-      important modifications last. "
+    instructions: |
+      - Walk through the changes in a clear and organized manner
+      - The changes most reflective of the PRs intent should be shown first
+      - Documentation, tests, and cosmetic changes should be shown last
