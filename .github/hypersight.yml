@@ -14,27 +14,26 @@ classifications:
       system's security posture.
   - name: Low priority
     description: >-
-      Mark as low priority if the pull request meets any of the following
-      catagories:
+      Mark as low priority if any of the following conditions are met:
 
 
-      - **Documentation:** Any PR that updates or adds documentation (README,
-      user manuals, code comments, etc.).
+      - PR updates or adds documentation (README, user manuals, code comments,
+      etc.).
 
-      - **Testing:** Additions or revisions to tests (unit, integration,
-      end-to-end) aimed at improving coverage or reliability.
+      - Additions or revisions to tests (unit, integration, end-to-end) aimed at
+      improving coverage or reliability.
 
-      - **Build/CI:** Modifications to library/package dependencies, build
-      scripts, or continuous integration configuration.
+      - Modifications to library/package dependencies, build scripts, or
+      continuous integration configuration.
 
-      - **Chore: ** General housekeeping that doesn't fall under the above
-      categories (e.g., version bumps, minor configurations, or grooming tasks).
+      - General housekeeping that doesn't fall under the above categories (e.g.,
+      version bumps, minor configurations, or grooming tasks).
 
-      - **Performance:** Changes that optimize the speed, efficiency, or
-      scalability of the application.
+      - Changes that optimize the speed, efficiency, or scalability of the
+      application.
 
-      - **Refactor:** Reorganization of code for improved clarity,
-      maintainability, or structure without changing external behavior.
+      - Reorganization of code for improved clarity, maintainability, or
+      structure without changing external behavior.
   - name: UX and design improvements
     description: Changes specifically aimed at user interface or design improvements
   - name: Other
