@@ -1,6 +1,5 @@
 technicalKnowledge: 5
-instructions: Highlight key changes in the diff.  Tests, documentation,
-  dependencies, and other changes should have a low priority.
+instructions: ""
 language: English
 writingStyle: Normal
 classifications:
@@ -46,5 +45,3 @@ templates:
       - Walk through the changes in a clear and organized manner
       - The changes most reflective of the PRs intent should be shown first
       - Documentation, tests, and cosmetic changes should be shown last
-  - name: I love docs!
-    instructions: Show documentation updates first, I just love docs!
