@@ -45,3 +45,5 @@ templates:
       - Walk through the changes in a clear and organized manner
       - The changes most reflective of the PRs intent should be shown first
       - Documentation, tests, and cosmetic changes should be shown last
+  - name: I love docs!
+    instructions: "Show changes to documentation first. I'm a copywriter for our docs site. "
