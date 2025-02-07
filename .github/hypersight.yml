@@ -41,9 +41,15 @@ classifications:
     description: Changes specifically aimed at improving accessibility
 templates:
   - name: Default
-    instructions: |
+    instructions: |-
       - Walk through the changes in a clear and organized manner
       - The changes most reflective of the PRs intent should be shown first
       - Documentation, tests, and cosmetic changes should be shown last
+
+      For each section, please answer the following questions:
+      - Is there a new API introduced?
+      - Is a new library introduced?
+      - Why is it written this way?
+      - Is there any security concerns here?
   - name: Docs
     instructions: I am a copywriter, please show documentation changes first
