@@ -49,8 +49,8 @@ templates:
       - Documentation, tests, and cosmetic changes should be shown last
 
 
-      For each section, you must answer the following questions about the
-      content of the section:
+      For each group, you must answer the following questions in the group's
+      description:
 
       - Is there a new API introduced?
 
