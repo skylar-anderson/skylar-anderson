@@ -46,7 +46,7 @@ templates:
       - The changes most reflective of the PRs intent should be shown first
       - Documentation, tests, and cosmetic changes should be shown last
 
-      For each section, please answer the following questions:
+      For each section, please answer the following questions.
       - Is there a new API introduced?
       - Is a new library introduced?
       - Why is it written this way?
