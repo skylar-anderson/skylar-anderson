@@ -1,8 +1,3 @@
-technicalKnowledge: 5
-instructions: Highlight key changes in the diff.  Tests, documentation,
-  dependencies, and other changes should have a low priority.
-language: English
-writingStyle: Normal
 classifications:
   - name: Bug fix
     description: A change that addresses incorrect or unexpected behavior in the
@@ -47,3 +42,6 @@ templates:
         - 1. What is the purpose of these changes?  
         - 2. What are the risks or other important considerations?
         - 3. (Optional) How do these changes relate to mentioned issues?
+    technicalKnowledge: "2"
+    writingStyle: Normal
+    language: English
