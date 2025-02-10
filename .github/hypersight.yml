@@ -1,61 +1,49 @@
 technicalKnowledge: 5
-instructions: ""
+instructions: Highlight key changes in the diff.  Tests, documentation,
+  dependencies, and other changes should have a low priority.
 language: English
 writingStyle: Normal
 classifications:
   - name: Bug fix
     description: A change that addresses incorrect or unexpected behavior in the
       existing code.
-  - name: New feature
-    description: "A PR that delivers new or exciting customer value. "
+  - name: Feature
+    description: Introduction of a new feature or a notable enhancement to existing
+      functionality.
+  - name: Refactor
+    description: Reorganization of code for improved clarity, maintainability, or
+      structure without changing external behavior.
+  - name: Performance
+    description: Changes that optimize the speed, efficiency, or scalability of the
+      application.
   - name: Security
     description: A change that addresses a security vulnerability or hardens the
       system's security posture.
-  - name: Low priority
-    description: >-
-      Mark as low priority if any of the following conditions are met:
-
-
-      - PR updates or adds documentation (README, user manuals, code comments,
-      etc.).
-
-      - Additions or revisions to tests (unit, integration, end-to-end) aimed at
-      improving coverage or reliability.
-
-      - Modifications to library/package dependencies, build scripts, or
+  - name: Documentation
+    description: Any PR that updates or adds documentation (README, user manuals,
+      code comments, etc.).
+  - name: Testing
+    description: Additions or revisions to tests (unit, integration, end-to-end)
+      aimed at improving coverage or reliability.
+  - name: Build/CI
+    description: Modifications to library/package dependencies, build scripts, or
       continuous integration configuration.
-
-      - General housekeeping that doesn't fall under the above categories (e.g.,
-      version bumps, minor configurations, or grooming tasks).
-
-      - Changes that optimize the speed, efficiency, or scalability of the
-      application.
-
-      - Reorganization of code for improved clarity, maintainability, or
-      structure without changing external behavior.
-  - name: UX and design improvements
-    description: Changes specifically aimed at user interface or design improvements
+  - name: Chore
+    description: General housekeeping that doesn't fall under the above categories
+      (e.g., version bumps, minor configurations, or grooming tasks).
+  - name: UX
+    description: Changes specifically aimed at user interface or user experience
+      improvements.
   - name: Other
     description: Changes that don't fit into any other category.
-  - name: Accessibility
-    description: Changes specifically aimed at improving accessibility
 templates:
   - name: Default
-    instructions: |-
-      - Walk through the changes in a clear and organized manner
-      - The changes most reflective of the PRs intent should be shown first
-      - Documentation, tests, and cosmetic changes should be shown last
-  - name: Docs
-    instructions: I am a copywriter, please show documentation changes first
-  - name: Checklist
-    instructions: >-
-      For each group, you must answer the following questions in the group's
-      description:
-
-      - Is there a new API introduced?
-
-      - Is a new library introduced?
-
-      - Why is it written this way?
-
-      - Is there any security concerns here?
+    groupInstructions: Highlight the most important changes in the diff.  Tests,
+      documentation, dependencies, and other changes should have a low priority.
+    summaryInstructions: >-
+      - Render the summary as 3 concise bullet points that answers the following
+      questions. Do not restate the questions in your response. Do not say "The
+      main purpose...". Just speak directly to the contents of the group.
+        - 1. What is the purpose of these changes?  
+        - 2. What are the risks or other important considerations?
+        - 3. (Optional) How do these changes relate to mentioned issues?
