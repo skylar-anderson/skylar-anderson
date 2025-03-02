@@ -33,14 +33,10 @@ classifications:
     description: Changes that don't fit into any other category.
 templates:
   - name: Default
-    groupInstructions: >-
-      Highlight the most important changes in the diff. Tests, documentation,
-      dependencies, and other changes should have a low priority.
-
-
-      test
+    groupInstructions: Highlight the most important changes in the diff. Tests,
+      documentation, dependencies, and other changes should have a low priority.
     summaryInstructions: "Provide a concise summary of the overall changes and their
       impact. Do not exceed 100 words. "
     language: English
     writingStyle: Normal
-    technicalKnowledge: 5
+    technicalKnowledge: 2
