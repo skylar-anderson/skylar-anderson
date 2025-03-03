@@ -45,3 +45,11 @@ templates:
     language: English
     writingStyle: Concise
     technicalKnowledge: 1
+  - name: Risk assessment
+    groupInstructions: "I am a security engineer. I need to understand the riskiest
+      parts of this pull request. Please highlight potential areas of concern
+      first. If a change doesn't affect runtime, don't show it to me at all--i
+      just don't care.  "
+    language: English
+    writingStyle: Normal
+    technicalKnowledge: 5
