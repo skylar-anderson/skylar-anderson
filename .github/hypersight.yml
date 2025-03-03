@@ -38,3 +38,10 @@ templates:
     language: English
     writingStyle: Normal
     technicalKnowledge: 5
+  - name: Executive summary
+    groupInstructions: "I am a non technical executive. I just want to know what's
+      going on with each PR. Please provide a high level summary of the changes.
+      Do not get into the details of everything--i just don't care. "
+    language: English
+    writingStyle: Concise
+    technicalKnowledge: 1
