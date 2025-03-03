@@ -85,13 +85,20 @@ templates:
     technicalKnowledge: 5
   - name: Docs writer
     groupInstructions: >-
-      I am a technical writer for our documentation team. For each PR, I need to
-      ensure our docs are updated. Please generate a walkthrough that gives me a
-      headstart on documentation. 
+      I am a technical writer for our documentation team.
 
 
-      Use a casual writing style and be sure to highlight all necessary details,
-      especially if there is an API or other user-facing change.
+      For each PR, I need to ensure our docs are updated. Please generate a
+      walkthrough that gives me a head start on documentation by explaining
+      customer-facing changes in great detail. 
+
+
+      Instructions:
+
+      - Focus on explaining new functionality in detail
+
+      - Avoid getting into detail on tests or other secondary changes that are
+      irrelevant for customer facing docs
     language: English
-    writingStyle: Normal
+    writingStyle: Explanatory
     technicalKnowledge: 5
