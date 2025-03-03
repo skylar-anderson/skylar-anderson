@@ -53,3 +53,15 @@ templates:
     language: English
     writingStyle: Normal
     technicalKnowledge: 5
+  - name: Docs writer
+    groupInstructions: >-
+      I am a technical writer for our documentation team. For each PR, I need to
+      ensure our docs are updated. Please generate a walkthrough that gives me a
+      headstart on documentation. 
+
+
+      Use a casual writing style and be sure to highlight all necessary details,
+      especially if there is an API or other user-facing change.
+    language: English
+    writingStyle: Normal
+    technicalKnowledge: 5
