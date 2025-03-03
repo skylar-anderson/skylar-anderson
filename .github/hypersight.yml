@@ -100,8 +100,8 @@ templates:
       - I do not need you to render every change--just the changes necessary to
       help me understand customer-facing changes. 
 
-      - Do not tell me about tests or other secondary changes that do not impact
-      the customer experience. 
+      - Do not include details about test changes or other secondary changes
+      that do not impact the customer experience. 
     language: English
     writingStyle: Explanatory
     technicalKnowledge: 5
