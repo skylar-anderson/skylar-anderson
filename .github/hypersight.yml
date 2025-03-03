@@ -39,11 +39,33 @@ templates:
     writingStyle: Normal
     technicalKnowledge: 5
   - name: Executive summary
-    groupInstructions: "I am a non technical executive. I just want to know what's
-      going on with each PR. Please provide a high level summary of the changes.
-      Only show me code if it's critically necessary for
-      understanding..otherwise I just want the executive summary, especially as
-      it relates to the intent of the PR. "
+    groupInstructions: >
+      I am a non technical executive. I just want to know what's going on with
+      each PR. Please provide a high level summary of the changes. Only show me
+      code if it's critically necessary for understanding..otherwise I just want
+      the executive summary, especially as it relates to the intent of the PR. 
+
+
+      Use the following format
+
+
+      ## Executive Summary
+
+
+      [summary]
+
+
+      ### Background
+
+
+      [summary of any related issues or background information that helps me
+      understand purpose or intent]
+
+
+      ### Changes
+
+
+      [summary of changes]
     language: English
     writingStyle: Concise
     technicalKnowledge: 1
