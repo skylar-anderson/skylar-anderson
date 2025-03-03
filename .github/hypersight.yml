@@ -97,6 +97,9 @@ templates:
 
       - Focus on explaining new functionality in detail
 
+      - I do not need you to render every change--just the changes necessary to
+      help me understand customer-facing changes. 
+
       - Avoid getting into detail on tests or other secondary changes that are
       irrelevant for customer facing docs
     language: English
