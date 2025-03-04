@@ -88,19 +88,31 @@ templates:
       I am a technical writer for our documentation team.
 
 
-      For each PR, I need to ensure our docs are updated. Please generate a
-      walkthrough that gives me a head start on documentation by explaining
-      customer-facing changes in great detail. 
+      Before generating your walkthrough, please give me some sample docs that I
+      can use to expand our documentation site.  Please provide a detailed
+      description of any changes that have user-facing impact. Write a detailed
+      description and provide sample code when necessary.  Use the following
+      template
 
 
-      Instructions:
+      ## Changes necessary to docs
 
-      - Focus on explaining new functionality in detail
 
-      - Highlight any changes to APIs and show sample code
+      [describe how I should change our docs]
 
-      - Do not include details about test changes or other secondary changes
-      that do not impact the customer experience. 
+
+      ## Sample code
+
+
+      [share sample code that would be relevant for our users]
+
+
+      ---
+
+
+      When generating the walkthrough, please skip testing files or other
+      secondary changes that do not modify actual runtime or customer
+      experience. 
     language: English
     writingStyle: Explanatory
     technicalKnowledge: 5
