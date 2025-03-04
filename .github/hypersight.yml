@@ -97,8 +97,7 @@ templates:
 
       - Focus on explaining new functionality in detail
 
-      - I do not need you to render every change--just the changes necessary to
-      help me understand customer-facing changes. 
+      - Highlight any changes to APIs and show sample code
 
       - Do not include details about test changes or other secondary changes
       that do not impact the customer experience. 
